@@ -1,0 +1,336 @@
+{
+  "version": "1.0.0",
+  "source": "https://github.com/amit-chainflux/matterhorn-skills",
+  "updatedAt": "2026-04-14",
+  "skills": [
+    {
+      "id": "aave",
+      "name": "aave",
+      "description": "Aave V3 lending protocol integration — supply, borrow, repay, withdraw, flash loans, E-Mode, and health factor monitoring. Covers IPool interface in Solidity and viem-based TypeScript for reading prot",
+      "category": "blockchain",
+      "icon": "💰",
+      "author": "CryptoSkills",
+      "badge": "community"
+    },
+    {
+      "id": "account-abstraction",
+      "name": "account-abstraction",
+      "description": "\"ERC-4337 and EIP-7702 unified reference — EntryPoint v0.7 architecture, UserOperation lifecycle, bundler and paymaster roles, EIP-7702 EOA delegation (Type 0x04 transactions), combined ERC-4337 + EIP",
+      "category": "blockchain",
+      "icon": "🔑",
+      "author": "CryptoSkills",
+      "badge": "community"
+    },
+    {
+      "id": "axelar",
+      "name": "axelar",
+      "description": "Axelar cross-chain messaging and token routing — General Message Passing (GMP), Interchain Token Service (ITS) for native multichain tokens, AxelarExecutable contract pattern, gas estimation, and cros",
+      "category": "blockchain",
+      "icon": "🌉",
+      "author": "CryptoSkills",
+      "badge": "community"
+    },
+    {
+      "id": "chainlink",
+      "name": "chainlink",
+      "description": "Chainlink oracle integration — price feeds (AggregatorV3Interface), VRF v2.5 verifiable randomness, Automation (Keepers) for conditional execution, and CCIP cross-chain messaging. Covers staleness che",
+      "category": "blockchain",
+      "icon": "🔗",
+      "author": "CryptoSkills",
+      "badge": "community"
+    },
+    {
+      "id": "compound",
+      "name": "compound",
+      "description": "Compound V3 (Comet) lending protocol — supply, borrow, repay, withdraw, liquidation, governance proposals, and cross-chain Comet deployments. Covers Comet interface (single-asset borrowing), Configura",
+      "category": "blockchain",
+      "icon": "💰",
+      "author": "CryptoSkills",
+      "badge": "community"
+    },
+    {
+      "id": "contract-addresses",
+      "name": "contract-addresses",
+      "description": "Verified contract addresses for major EVM protocols across Ethereum, Arbitrum, Optimism, Base, and Polygon. Covers tokens, DEXes, lending, bridges, and infrastructure. Use as a reference when building",
+      "category": "blockchain",
+      "icon": "📋",
+      "author": "CryptoSkills",
+      "badge": "community"
+    },
+    {
+      "id": "eth-concepts",
+      "name": "eth-concepts",
+      "description": "Core Ethereum development concepts including gas mechanics, transaction types, storage layout, ABI encoding, and EVM execution model. Use as a reference when building on Ethereum or EVM chains.",
+      "category": "blockchain",
+      "icon": "📚",
+      "author": "CryptoSkills",
+      "badge": "community"
+    },
+    {
+      "id": "evm-nfts",
+      "name": "evm-nfts",
+      "description": "\"ERC-721 and ERC-1155 NFT development patterns for EVM chains. Covers minting, metadata, royalties, marketplace integration with Seaport, and security pitfalls. Uses OpenZeppelin v5.6.1.\"",
+      "category": "blockchain",
+      "icon": "🖼️",
+      "author": "CryptoSkills",
+      "badge": "community"
+    },
+    {
+      "id": "evm-testing",
+      "name": "evm-testing",
+      "description": "Comprehensive testing patterns for EVM smart contracts. Covers unit tests, fuzz testing, invariant testing, fork testing, and gas optimization with Foundry and Hardhat. Focuses on patterns and techniq",
+      "category": "blockchain",
+      "icon": "✅",
+      "author": "CryptoSkills",
+      "badge": "community"
+    },
+    {
+      "id": "foundry",
+      "name": "foundry",
+      "description": "Foundry toolkit for Solidity development — forge (build/test), cast (chain interaction), anvil (local node), and chisel (REPL). Covers project setup, testing patterns (unit, fuzz, invariant, fork), de",
+      "category": "blockchain",
+      "icon": "🔨",
+      "author": "CryptoSkills",
+      "badge": "community"
+    },
+    {
+      "id": "frontend-design",
+      "name": "frontend-design",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples inclu",
+      "category": "frontend",
+      "icon": "🎨",
+      "author": "Anthropic",
+      "badge": "official",
+      "docsUrl": "https://github.com/anthropics/skills/tree/main/skills/frontend-design"
+    },
+    {
+      "id": "frontend-ux",
+      "name": "frontend-ux",
+      "description": "\"dApp frontend UX patterns and production readiness — wallet connection flows (RainbowKit, multi-state), four-state transaction lifecycle, error handling taxonomy (4001 user rejection, insufficient fu",
+      "category": "blockchain",
+      "icon": "🖥️",
+      "author": "CryptoSkills",
+      "badge": "community"
+    },
+    {
+      "id": "hardhat",
+      "name": "hardhat",
+      "description": "Hardhat Solidity development framework — project setup, plugin ecosystem, testing with Mocha/Chai, deployment with Hardhat Ignition, contract verification, Hardhat Network forking, TypeScript configur",
+      "category": "blockchain",
+      "icon": "⛑️",
+      "author": "CryptoSkills",
+      "badge": "community"
+    },
+    {
+      "id": "layerzero",
+      "name": "layerzero",
+      "description": "LayerZero V2 cross-chain messaging — OApp framework, OFT (Omnichain Fungible Token), DVN configuration, executor setup, message options, and cross-chain deployment patterns. Covers lz-oapp contracts, ",
+      "category": "blockchain",
+      "icon": "🌉",
+      "author": "CryptoSkills",
+      "badge": "community"
+    },
+    {
+      "id": "mcp-builder",
+      "name": "mcp-builder",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate externa",
+      "category": "general",
+      "icon": "🔧",
+      "author": "Anthropic",
+      "badge": "official",
+      "docsUrl": "https://github.com/anthropics/skills/tree/main/skills/mcp-builder"
+    },
+    {
+      "id": "openzeppelin",
+      "name": "openzeppelin",
+      "description": "OpenZeppelin Contracts v5 for building secure smart contracts. Covers ERC-20/721/1155 tokens, access control (Ownable, AccessControl, AccessManager), security utilities (ReentrancyGuard, Pausable, Saf",
+      "category": "blockchain",
+      "icon": "🏰",
+      "author": "CryptoSkills",
+      "badge": "community"
+    },
+    {
+      "id": "scaffold-eth-2",
+      "name": "scaffold-eth-2",
+      "description": "\"Full-stack dApp development framework — quick start with npx create-eth@latest, Foundry/Hardhat monorepo, custom React hooks (useScaffoldWriteContract, useScaffoldReadContract, useDeployedContractInf",
+      "category": "blockchain",
+      "icon": "🏗️",
+      "author": "CryptoSkills",
+      "badge": "community"
+    },
+    {
+      "id": "skill-creator",
+      "name": "skill-creator",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill",
+      "category": "general",
+      "icon": "⚡",
+      "author": "Anthropic",
+      "badge": "official",
+      "docsUrl": "https://github.com/anthropics/skills/tree/main/skills/skill-creator"
+    },
+    {
+      "id": "slither",
+      "name": "slither",
+      "description": "Slither static analyzer for Solidity — installation, detector categories, triage workflow, custom detectors, printers, CI integration, and configuration. Run fast security scans on Hardhat and Foundry",
+      "category": "blockchain",
+      "icon": "🐍",
+      "author": "CryptoSkills",
+      "badge": "community"
+    },
+    {
+      "id": "solidity-auditor",
+      "name": "solidity-auditor",
+      "description": "Security audit of Solidity code while you develop. Trigger on \"audit\", \"check this contract\", \"review for security\". Modes - default (full repo), DEEP (+ adversarial reasoning), or a specific filename",
+      "category": "blockchain",
+      "icon": "🔍",
+      "author": "CryptoSkills",
+      "badge": "community"
+    },
+    {
+      "id": "solidity-security",
+      "name": "solidity-security",
+      "description": "Comprehensive Solidity security patterns, vulnerability prevention, and audit preparation. Covers reentrancy, access control, token decimals, oracle manipulation, vault inflation, proxy safety, EIP-71",
+      "category": "blockchain",
+      "icon": "🛡️",
+      "author": "CryptoSkills",
+      "badge": "community"
+    },
+    {
+      "id": "uniswap-cca-configurator",
+      "name": "configurator",
+      "description": "Configure CCA (Continuous Clearing Auction) smart contract parameters through an interactive bulk form flow. Use when user says \"configure auction\", \"cca auction\", \"setup token auction\", \"auction conf",
+      "category": "blockchain",
+      "icon": "🦄",
+      "author": "Uniswap Labs",
+      "badge": "official",
+      "docsUrl": "https://github.com/Uniswap/uniswap-ai"
+    },
+    {
+      "id": "uniswap-cca-deployer",
+      "name": "deployer",
+      "description": "Deploy CCA (Continuous Clearing Auction) smart contracts using the Factory pattern. Use when user says \"deploy auction\", \"deploy cca\", \"factory deployment\", or wants to deploy a configured auction.",
+      "category": "blockchain",
+      "icon": "🦄",
+      "author": "Uniswap Labs",
+      "badge": "official",
+      "docsUrl": "https://github.com/Uniswap/uniswap-ai"
+    },
+    {
+      "id": "uniswap-liquidity-planner",
+      "name": "liquidity-planner",
+      "description": "This skill should be used when the user asks to \"provide liquidity\", \"create LP position\", \"add liquidity to pool\", \"become a liquidity provider\", \"create v3 position\", \"create v4 position\", \"concentr",
+      "category": "blockchain",
+      "icon": "🦄",
+      "author": "Uniswap Labs",
+      "badge": "official",
+      "docsUrl": "https://github.com/Uniswap/uniswap-ai"
+    },
+    {
+      "id": "uniswap-pay-with-any-token",
+      "name": "pay-with-any-token",
+      "description": ">",
+      "category": "blockchain",
+      "icon": "🦄",
+      "author": "Uniswap Labs",
+      "badge": "official",
+      "docsUrl": "https://github.com/Uniswap/uniswap-ai"
+    },
+    {
+      "id": "uniswap-swap-integration",
+      "name": "swap-integration",
+      "description": "Integrate Uniswap swaps into applications. Use when user says \"integrate swaps\", \"uniswap\", \"trading api\", \"add swap functionality\", \"build a swap frontend\", \"create a swap script\", \"smart contract sw",
+      "category": "blockchain",
+      "icon": "🦄",
+      "author": "Uniswap Labs",
+      "badge": "official",
+      "docsUrl": "https://github.com/Uniswap/uniswap-ai"
+    },
+    {
+      "id": "uniswap-swap-planner",
+      "name": "swap-planner",
+      "description": "This skill should be used when the user asks to \"swap tokens\", \"trade ETH for USDC\", \"exchange tokens on Uniswap\", \"buy tokens\", \"sell tokens\", \"convert ETH to stablecoins\", \"find memecoins\", \"discove",
+      "category": "blockchain",
+      "icon": "🦄",
+      "author": "Uniswap Labs",
+      "badge": "official",
+      "docsUrl": "https://github.com/Uniswap/uniswap-ai"
+    },
+    {
+      "id": "uniswap-v4-hook-generator",
+      "name": "v4-hook-generator",
+      "description": "'Generate Uniswap v4 hook contracts via OpenZeppelin MCP. Use when building custom swap logic, async swaps, hook-owned liquidity, custom curves, dynamic fees, MEV protection, limit orders, or oracle h",
+      "category": "blockchain",
+      "icon": "🦄",
+      "author": "Uniswap Labs",
+      "badge": "official",
+      "docsUrl": "https://github.com/Uniswap/uniswap-ai"
+    },
+    {
+      "id": "uniswap-v4-sdk-integration",
+      "name": "v4-sdk-integration",
+      "description": ">",
+      "category": "blockchain",
+      "icon": "🦄",
+      "author": "Uniswap Labs",
+      "badge": "official",
+      "docsUrl": "https://github.com/Uniswap/uniswap-ai"
+    },
+    {
+      "id": "uniswap-v4-security-foundations",
+      "name": "v4-security-foundations",
+      "description": "Security-first Uniswap v4 hook development. Use when user mentions \"v4 hooks\", \"hook security\", \"PoolManager\", \"beforeSwap\", \"afterSwap\", or asks about V4 hook best practices, vulnerabilities, or audi",
+      "category": "blockchain",
+      "icon": "🦄",
+      "author": "Uniswap Labs",
+      "badge": "official",
+      "docsUrl": "https://github.com/Uniswap/uniswap-ai"
+    },
+    {
+      "id": "uniswap-viem-integration",
+      "name": "viem-integration",
+      "description": "Integrate EVM blockchains using viem. Use when user says \"read blockchain data\", \"send transaction\", \"interact with smart contract\", \"connect to Ethereum\", \"use viem\", \"use wagmi\", \"wallet integration",
+      "category": "blockchain",
+      "icon": "🦄",
+      "author": "Uniswap Labs",
+      "badge": "official",
+      "docsUrl": "https://github.com/Uniswap/uniswap-ai"
+    },
+    {
+      "id": "viem",
+      "name": "viem",
+      "description": "TypeScript interface for Ethereum and EVM chains. Use for reading blockchain state, sending transactions, interacting with contracts, encoding/decoding ABI data, and building dApp backends. Transport-",
+      "category": "blockchain",
+      "icon": "⚙️",
+      "author": "CryptoSkills",
+      "badge": "community"
+    },
+    {
+      "id": "wagmi",
+      "name": "wagmi",
+      "description": "\"wagmi React hooks for Ethereum — createConfig, useAccount, useReadContract, useWriteContract, useWaitForTransactionReceipt, wallet connectors, SSR/Next.js patterns, and TanStack Query integration. Bu",
+      "category": "blockchain",
+      "icon": "⚙️",
+      "author": "CryptoSkills",
+      "badge": "community"
+    },
+    {
+      "id": "webapp-testing",
+      "name": "webapp-testing",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser l",
+      "category": "testing",
+      "icon": "🧪",
+      "author": "Anthropic",
+      "badge": "official",
+      "docsUrl": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing"
+    },
+    {
+      "id": "wormhole",
+      "name": "wormhole",
+      "description": "Wormhole cross-chain messaging and token transfers — NTT (Native Token Transfers) framework, VAA (Verified Action Approvals), guardian network, automatic and manual relayers, Wormhole Queries for cros",
+      "category": "blockchain",
+      "icon": "🌉",
+      "author": "CryptoSkills",
+      "badge": "community"
+    }
+  ]
+}
